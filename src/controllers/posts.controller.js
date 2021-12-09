@@ -16,12 +16,12 @@ const getPostById = (req, res) => {
     //getPostById api logic here
 };
 
-const updatePost = (req, res) => {
-    //updatePost api logic here
+const updatePostById = (req, res) => {
+    //updatePostById api logic here
 };
 
-const deletePost = (req, res) => {
-    //deletePost api logic here
+const deletePostById = (req, res) => {
+    //deletePostById api logic here
 };
 
 
@@ -30,8 +30,8 @@ const PostsController = {
     getAllPosts,
     getPostsByUserId,
     getPostById,
-    updatePost,
-    deletePost
+    updatePostById,
+    deletePostById
 };
 
 module.exports = PostsController;
