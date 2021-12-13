@@ -1,1 +1,1 @@
-// posts model
+// posts routes
